@@ -1,0 +1,31 @@
+[Libraries]
+[Literally recommended]
+[Libraries ignore by Unity]
+Library/
+Temp/
+Logs/
+Obj/
+Build/
+Builds/
+UserSettings/
+
+sysinfo.txt
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Visual Studio
+.vs/
+*.db
+*.opendb
+
+# Auto-generated
+/Assets/AssetStoreTools*
+/Assets/StreamingAssets/aa.meta
