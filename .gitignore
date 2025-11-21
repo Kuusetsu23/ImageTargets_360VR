@@ -1,15 +1,37 @@
-[Libraries]
-[Literally recommended]
-[Libraries ignore by Unity]
+# ============================
+# Unity .gitignore (Full)
+# ============================
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# Unity generated folders
 Library/
 Temp/
-Logs/
 Obj/
-Build/
-Builds/
+Logs/
 UserSettings/
 
-sysinfo.txt
+# Unity Cache
+MemoryCaptures/
+
+# Builds
+Build/
+Builds/
+*/Build/
+*/Builds/
+
+# Asset store tools
+Assets/AssetStoreTools*
+
+# Auto-generated Visual Studio/VSCode files
+ExportedObj/
 *.csproj
 *.unityproj
 *.sln
@@ -20,12 +42,32 @@ sysinfo.txt
 *.pidb
 *.booproj
 *.svd
-
-# Visual Studio
-.vs/
-*.db
+*.pdb
+*.mdb
 *.opendb
+*.VC.db
 
-# Auto-generated
-/Assets/AssetStoreTools*
-/Assets/StreamingAssets/aa.meta
+# Visual Studio cache
+.vs/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Crash reports
+sysinfo.txt
+
+# Android
+.gradle/
+*.apk
+*.aab
+*.keystore
+
+# Addressables
+Library/com.unity.addressables/
+Assets/StreamingAssets/aa.meta
+Assets/StreamingAssets/aa/*
+
+# Lightmap / GI cache (optional to ignore)
+LightmapSnapshot.asset
+LightingData.asset
